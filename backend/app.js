@@ -2,20 +2,11 @@ import express from "express";
 const app = express();
 
 import dotenv from 'dotenv';
-import { connectDb } from "./src/config/mongoConfig.js";
 dotenv.config({ path: "./src/env/.env" })
 
+import { connectDb } from "./src/config/mongoConfig.js";
 
 app.use(express.json());
-
-
-
-
-
-
-
-
-
 
 
 
